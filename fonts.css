@@ -1,0 +1,15 @@
+@font-face{
+    font-family: WalkOn;
+    src: url(./fonts/WalkOn_typeface.ai);
+}
+
+
+@font-face {
+    font-family: kreon;
+    src: url(./fonts/Kreon-Regular.ttf);
+}
+
+@font-face {
+    font-family: weston;
+    src: url(./fonts/Weston/Commercial/TTF/WestonFree-Regular.ttf);
+}

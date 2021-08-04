@@ -1,0 +1,218 @@
+
+
+/* .skills-content {
+   
+} */
+
+.skills-dropdown-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+
+  .dropdown-label{
+      padding: 16px;
+      width: 400px;
+      text-align: center;
+      cursor: pointer;
+      margin: auto;
+      display: flex;
+      
+  }
+  .skills-heading{
+    margin: 0 auto;
+  }
+
+  .down-icon{
+      position: relative;
+      top: 2px;
+      left: 3px;
+  }
+  .columns{
+    width:400px;
+  }
+
+
+  .row {
+    padding: 20px 0px 10px;
+    margin: auto;
+   /* position: absolute;   */
+   
+    display: none;
+  }
+  .row-visible{
+     display: unset;
+  }
+ 
+  .progressBar {
+      margin-bottom: 26px;
+      margin-bottom: 1.66em;
+      position: relative;
+      
+  }
+  .progressBar h4 {
+      font-size: 16px;
+      text-transform: none;
+      margin-bottom: 7px;
+      margin-bottom: .33em;
+      color: #2E1437;
+  }
+  .progressBarcontainer {
+      width: 100%;
+      height: 10px;
+
+      background: #E1E1E1!important;
+      overflow: hidden;
+      border-radius: 0.3em;
+  }
+  .progressBarValue {
+      height: 10px;
+      float: left;
+      border-radius: 0.3em;
+      /* background: #348F50; Old browsers */
+      background: -moz-linear-gradient(-45deg, #348F50 0%, #56B4D3 100%);
+      background: -webkit-linear-gradient(-45deg, #348F50 0%, #56B4D3 100%);
+      background: linear-gradient(135deg, #348F50 0%, #56B4D3 100%);
+  }
+  
+  .speech-bubble {
+      font-size: 0.75em;
+      line-height: 2em;
+      position: absolute;
+      top: -0.60em;
+      text-align: center;
+      min-width: 3em;
+      border-radius: 0.3em;
+      color: white;
+      display: none;
+  }
+  
+  .speech-bubble:after {
+      border: 0.5em solid transparent;
+      content: "";
+      margin-left: -0.5em;
+      position: absolute;
+      bottom: -50%;
+      left: 50%;
+  }
+  
+  .html {
+      left: calc(88.5% - 1.5em);
+  }
+    
+  .css{
+        left: calc(78.5% - 1.5em);
+  }
+  
+  .javascript{
+      left: calc(78.5% - 1.5em);
+  } 
+  
+  .react{
+      left: calc(68.5% - 1.5em);
+  }
+
+  .wordpress{
+      left: calc(88.5% - 1.5em);
+  }
+
+  .node{
+      left: calc(78.5% - 1.5em);
+  }
+
+  .mongo{
+      left: calc(68.5% - 1.5em);
+  }
+
+  .php{
+    left: calc(58.5% - 1.5em);
+  }
+  
+  .premiere{
+      left: calc(78.5% - 1.5em);
+  }
+  
+  .aftereffects{
+      left: calc(78.5% - 1.5em);
+  }
+  
+  .figma{
+      left: calc(88.5% - 1.5em);
+  }
+  
+  .xd{
+      left: calc(68.5% - 1.5em);
+  }
+  
+  .photoshop{
+      left: calc(88.5% - 1.5em);
+  }
+  
+
+  
+  
+  .html,
+  .css,
+  .javascript,
+  .react,
+  .wordpress,
+  .node,
+  .php,
+  .mongo,
+  .premiere,
+  .aftereffects,
+  .figma,
+  .xd,
+  .photoshop
+   {
+      background: #56B4D3;
+  }
+    
+  .html:after {
+      border-top-color: #56B4D3;
+  }
+  
+  .css:after{
+      border-top-color:#56B4D3;
+  }
+  
+  .javascript:after{
+      border-top-color:#56B4D3;
+  }
+  
+  .react:after{
+      border-top-color:#56B4D3;
+  }
+  .node:after {
+      border-top-color: #56B4D3;
+  }
+  
+  .php:after{
+      border-top-color:#56B4D3;
+  }
+  
+  .mongo:after{
+      border-top-color:#56B4D3;
+  }
+  
+  .premiere:after{
+      border-top-color:#56B4D3;
+  }
+  .aftereffects:after {
+      border-top-color: #56B4D3;
+  }
+  
+  .figma:after{
+      border-top-color:#56B4D3;
+  }
+  
+  .xd:after{
+      border-top-color:#56B4D3;
+  }
+  
+  .photoshop:after{
+      border-top-color:#56B4D3;
+  }
+  
+  

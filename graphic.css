@@ -1,0 +1,314 @@
+
+svg {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%)
+   }
+  
+  #left-wheel,
+  #right-wheel, #Laptop {
+    transform-origin: 50% 50%;
+    transform-box: fill-box; }
+  
+  #guy-head {
+    animation: head-nod 5s ease-in-out infinite;
+    transform-origin: center left; }
+  
+  @keyframes head-nod {
+    0%,
+    100% {
+      transform: rotate(2deg) translate(-20px, -20px); }
+    25%,
+    75% {
+      transform: rotate(10deg) translate(-90px, -100px); }
+    50% {
+      transform: rotate(6deg) translate(-50px, -60px); } }
+  
+  #left-shoe {
+    animation: left-shoe 6s infinite;
+    transform-origin: 50% 50%; }
+  
+  @keyframes left-shoe {
+    25%,
+    75% {
+      transform: skew(7deg) translateX(-15px); }
+    50% {
+      transform: skew(10deg) translateX(-20px); } }
+  
+  #left-arm {
+    animation: left-arm-move 5s infinite alternate; }
+  
+  @keyframes left-arm-move {
+    25% {
+      transform: rotate(2deg) translate(50px, -30px); }
+    50% {
+      transform: rotate(2deg) translate(50px, -25px); }
+    75% {
+      transform: rotate(1deg) translate(20px, -15px); } }
+  
+  #thumb {
+    animation: thumb 4s infinite;
+    transform-origin: 50% 50%; }
+  
+  @keyframes thumb {
+    20%,
+    40%,
+    55% {
+      transform: rotate(10deg) translate(-50px, 20px); }
+    30%,
+    60% {
+      transform: rotate(3deg) translate(-20px, 10px); } }
+  
+  #palm {
+    animation: palm 3s infinite;
+    transform: translateX(5px);
+    transform-origin: left;
+    transform-box: fill-box; }
+  
+  @keyframes palm {
+    10%,
+    50% {
+      transform: rotate(6deg); }
+    20%,
+    60% {
+      transform: rotate(3deg); } }
+  
+  #right-bicep,
+  #shoulder {
+    animation: bicep-shoulder-move 8s infinite alternate;
+    transform-origin: top left;
+    transform-box: fill-box; }
+  
+  @keyframes bicep-shoulder-move {
+    20% {
+      transform: rotate(-2deg) translate(5px, 5px); }
+    40% {
+      transform: rotate(1deg); }
+    60% {
+      transform: rotate(-1deg); }
+    80% {
+      transform: rotate(2deg); } }
+  
+  #right-forearm {
+    animation: right-arm 8s infinite alternate;
+    transform-origin: left;
+    transform-box: fill-box; }
+  
+  @keyframes right-arm {
+    20% {
+      transform: rotate(-6deg) translateX(15px); }
+    40% {
+      transform: rotate(1deg); }
+    60% {
+      transform: rotate(-3deg) translateX(5px); }
+    80% {
+      transform: rotate(3deg) translateX(-5px); } }
+  
+  #right-thigh {
+    transform-origin: 50% 50%;
+    animation: thigh 10s infinite; }
+  
+  @keyframes thigh {
+    20% {
+      transform: rotate(-2deg) translate(0px, 0px); }
+    40% {
+      transform: rotate(1deg) translate(-5px, 0px); }
+    60% {
+      transform: rotate(-5deg) translate(30px, 5px); }
+    80% {
+      transform: rotate(1deg) translate(10px, -5px); } }
+  
+  #skate-leg {
+    transform-origin: 50% 50%;
+    animation: skate_leg 10s infinite; }
+  
+  @keyframes skate_leg {
+    20% {
+      transform: rotate(5deg) translate(-10px, -20px); }
+    40% {
+      transform: rotate(-15deg) translate(35px, 70px); }
+    60% {
+      transform: rotate(12deg) translate(-10px, -50px); }
+    80% {
+      transform: rotate(-8deg) translate(40px, 40px); } }
+  
+  #skate-board {
+    animation: skateboard-slide 10s infinite; }
+  
+  @keyframes skateboard-slide {
+    20% {
+      transform: translateX(-50px); }
+    40% {
+      transform: translateX(200px); }
+    60% {
+      transform: translateX(-100px); }
+    80% {
+      transform: translateX(50px); }
+    100% {
+      transform: translateX(0px); } }
+  
+  #left-wheel,
+  #right-wheel {
+    animation: skate-wheel-rotate 10s infinite; }
+  
+  @keyframes skate-wheel-rotate {
+    0% {
+      transform: rotate(30deg); }
+    20% {
+      transform: rotate(-25deg); }
+    40% {
+      transform: rotate(160deg); }
+    60% {
+      transform: rotate(10deg); }
+    80% {
+      transform: rotate(90deg); }
+    100% {
+      transform: rotate(30deg); } }
+  
+  #Laptop {
+    animation: laptop 3s infinite; }
+  
+  @keyframes laptop {
+    50% {
+      transform: rotate(2deg) translate(-2px, 5px); } }
+  
+  #o-note {
+    animation: o-note-bounce 4s ease-in-out infinite;
+    transform-origin: 50% 50%; }
+  
+  @keyframes o-note-bounce {
+    50% {
+      transform: rotate(30deg) translate(-400px, 20px);
+      opacity: 0.4; } }
+  
+  #b-note {
+    animation: b-note-bounce 5s 1s ease-in-out infinite;
+    transform-origin: 50% 50%; }
+  
+  @keyframes b-note-bounce {
+    50% {
+      transform: rotate(-40deg) translate(500px, 375px);
+      opacity: 0.3; } }
+  
+  #y-note {
+    animation: y-note-bounce 5s 1.5s ease-in-out infinite;
+    transform-origin: 50% 50%; }
+  
+  @keyframes y-note-bounce {
+    50% {
+      transform: rotate(30deg) translate(-350px, 50px);
+      opacity: 0.3; } }
+  
+  #g-note {
+    animation: g-note-bounce 5s 1.5s ease-in-out infinite;
+    transform-origin: 50% 50%; }
+  
+  @keyframes g-note-bounce {
+    50% {
+      transform: rotate(-30deg) translate(400px, 250px);
+      opacity: 0.2; } }
+  
+  #star1 {
+    animation: twinkle 3.5s infinite; }
+  
+  #star2 {
+    animation: twinkle 5s infinite; }
+  
+  #star3 {
+    animation: twinkle 7.5s infinite; }
+  
+  @keyframes twinkle {
+    50% {
+      transform: scale(1.1) translate(-175px, -75px);
+      opacity: 0; } }
+  
+  #leaf-yellow,
+  #leaf-blue {
+    animation: leaf-sway-yellow-blue 5s infinite;
+    transform-origin: 50% 50%; }
+  
+  #leaf-green {
+    animation: leaf-sway-green 4s infinite;
+    transform-origin: 50% 50%; }
+  
+  @keyframes leaf-sway-yellow-blue {
+    50% {
+      transform: translate(-25px, 55px) rotate(-4deg); } }
+  
+  @keyframes leaf-sway-green {
+    50% {
+      transform: translateX(10px, -150px) rotate(10deg); } }
+  
+  #steam-1 {
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: steam-whisp 6s ease-in-out infinite;
+    animation-delay: 1.5s; }
+  
+  #steam-2 {
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: steam-whisp 6s ease-in-out infinite;
+    animation-delay: 3s; }
+  
+  #steam-3 {
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: steam-whisp 6s ease-in-out infinite;
+    animation-delay: 4.5s; }
+  
+  @keyframes steam-whisp {
+    50% {
+      opacity: 0.5; }
+    75% {
+      transform: translateY(-150px);
+      opacity: 0; } }
+  
+  #z1 {
+    opacity: 0;
+    animation: snores 6s ease-in-out infinite;
+    animation-delay: 2.5s; }
+  
+  #zb1 {
+    opacity: 0;
+    animation: snore-bubble 6s ease-in-out infinite;
+    animation-delay: 0s; }
+  
+  #z2 {
+    opacity: 0;
+    animation: snores 6s ease-in-out infinite;
+    animation-delay: 3.5s; }
+  
+  #zb2 {
+    opacity: 0;
+    animation: snore-bubble 6s ease-in-out infinite;
+    animation-delay: 1s; }
+  
+  #z3 {
+    opacity: 0;
+    animation: snores 6s ease-in-out infinite;
+    animation-delay: 4.5s; }
+  
+  #zb3 {
+    opacity: 0;
+    animation: snore-bubble 6s ease-in-out infinite;
+    animation-delay: 2s; }
+  
+  @keyframes snores {
+    50% {
+      opacity: 0.7; }
+    75% {
+      transform: translate(-50px, -75px);
+      opacity: 0; } }
+  
+  @keyframes snore-bubble {
+    75% {
+      opacity: 0.7; } }
+  
+  #tail {
+    animation: tail-wag 4s infinite; }
+  
+  @keyframes tail-wag {
+    50% {
+      transform: rotate(10deg) translate(350px, -60px); } }
+  
