@@ -13,6 +13,10 @@
         
     }
 
+    .modal-quote{
+        display: none ;
+    }
+
     .navigation-items{
         position: absolute;
         display: flex;
@@ -313,6 +317,9 @@ footer h4{
         right: 0;
         
     }
+    .modal-quote{
+        display: none ;
+    }
 
     .navigation-items{
         position: absolute;
@@ -583,6 +590,7 @@ footer h4{
     .name{
         font-size: 35px;
     }
+    
   
     .icon-tray{
         position: absolute;

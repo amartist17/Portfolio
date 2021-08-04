@@ -73,7 +73,7 @@ $(".varsha").click(function(){
 
 })
 
-$(".tanishq").click(function(){
+$(".ajay").click(function(){
     $(".modal-name").text("Ajay Sharma")
     $(".modal-skill").text("Android Developer")
     $(".modal-para").text(ajay_para)
